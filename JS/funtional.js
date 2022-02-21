@@ -21,10 +21,10 @@ function updateBalance(amount,isAdd){
  const previousBalance = parseFloat(balanceText);
  let newBalance;
  if (isAdd==true){
-    const newBalance = previousBalance+amount;
+  newBalance = previousBalance+amount;
  }
  else{
-    const newBalance = previousBalance-amount;
+  newBalance = previousBalance-amount;
  }
 
 balanceTag.innerHTML = newBalance;
